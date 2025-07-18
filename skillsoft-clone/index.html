@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Employee Training: Learning Platform | Skillsoft</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'skillsoft-navy': '#2C3E50',
+                        'skillsoft-coral': '#FF6B6B',
+                        'skillsoft-light': '#F8F9FA',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-inter bg-white">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4">
+            <!-- Top Alert Bar -->
+            <div class="bg-skillsoft-light py-3 px-4 text-center text-sm">
+                <span class="text-gray-700">Is your workforce ready to meet the demands of tomorrow? Evaluate your organization's approach to skilling.</span>
+                <a href="#" class="text-skillsoft-coral underline ml-2">Take the assessment.</a>
+                <button class="float-right text-gray-500 hover:text-gray-700">&times;</button>
+            </div>
+            
+            <!-- Main Header -->
+            <div class="flex items-center justify-between py-4">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold text-skillsoft-navy">
+                        skillsoft<span class="text-skillsoft-coral">+</span>
+                    </div>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="hidden lg:flex items-center space-x-8">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-sm text-gray-600">English</span>
+                        <div class="w-6 h-6 bg-gray-200 rounded-full"></div>
+                    </div>
+                    <a href="#" class="text-sm text-gray-600 hover:text-skillsoft-navy">Sign in to your account</a>
+                </nav>
+                
+                <!-- Mobile Menu Button -->
+                <button class="lg:hidden">
+                    <div class="w-6 h-6">
+                        <div class="w-full h-0.5 bg-gray-600 mb-1"></div>
+                        <div class="w-full h-0.5 bg-gray-600 mb-1"></div>
+                        <div class="w-full h-0.5 bg-gray-600"></div>
+                    </div>
+                </button>
+            </div>
+            
+            <!-- CTA Button -->
+            <div class="pb-4">
+                <button class="w-full lg:w-auto bg-skillsoft-navy text-white px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all">
+                    REQUEST A DEMO
+                    <span class="ml-2 text-skillsoft-coral">▶</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-skillsoft-navy text-white py-20 lg:py-32">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl lg:text-6xl font-bold mb-8 leading-tight">
+                UNLOCK THE<br>
+                <span class="text-skillsoft-coral">POTENTIAL</span><br>
+                OF YOUR<br>
+                WORKFORCE
+            </h1>
+            <p class="text-xl lg:text-2xl mb-12 max-w-3xl mx-auto text-gray-300">
+                Bridge the gap between capability and success with Skillsoft
+            </p>
+            <button class="bg-skillsoft-coral text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-opacity-90 transition-all">
+                Request a Demo
+            </button>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="py-16 bg-skillsoft-light">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-2xl lg:text-3xl font-bold text-skillsoft-navy mb-12">
+                TRUSTED BY ORGANIZATIONS FOR<br>
+                EMPLOYEE LEARNING AND DEVELOPMENT
+            </h2>
+            <div class="grid grid-cols-2 lg:grid-cols-5 gap-8 items-center opacity-60">
+                <div class="h-16 bg-gray-300 rounded flex items-center justify-center">
+                    <span class="text-gray-600 font-semibold">COMPANY</span>
+                </div>
+                <div class="h-16 bg-gray-300 rounded flex items-center justify-center">
+                    <span class="text-gray-600 font-semibold">BRAND</span>
+                </div>
+                <div class="h-16 bg-gray-300 rounded flex items-center justify-center">
+                    <span class="text-gray-600 font-semibold">LOGO</span>
+                </div>
+                <div class="h-16 bg-gray-300 rounded flex items-center justify-center">
+                    <span class="text-gray-600 font-semibold">CLIENT</span>
+                </div>
+                <div class="h-16 bg-gray-300 rounded flex items-center justify-center">
+                    <span class="text-gray-600 font-semibold">PARTNER</span>
+                </div>
+            </div>
+            <div class="mt-8">
+                <a href="#" class="text-skillsoft-coral font-semibold hover:underline">
+                    Check out our customer Stories
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Are You Ready Section -->
+    <section class="py-20 bg-skillsoft-navy text-white">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl lg:text-5xl font-bold mb-8">
+                        Are You <span class="text-skillsoft-coral">Ready?</span>
+                    </h2>
+                    <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                        The way employees work, learn, and grow is evolving at an unprecedented pace, with 85% of jobs by 2030 expected to require skills that don't yet exist.<sup>1</sup> Traditional workforce development approaches – rooted in content libraries and course completions – are no longer sufficient.
+                    </p>
+                    <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                        Organizations must rethink their approach to career development and talent optimization, focusing on transformative learning strategies that close the gap between potential and performance.
+                    </p>
+                    <button class="bg-white text-skillsoft-navy px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all">
+                        See Where You Stand
+                    </button>
+                </div>
+                <div class="bg-skillsoft-light rounded-lg p-8 text-skillsoft-navy">
+                    <div class="w-full h-64 bg-gray-300 rounded-lg mb-4 flex items-center justify-center">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-skillsoft-coral rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <span class="text-white text-2xl">▶</span>
+                            </div>
+                            <p class="text-sm">Play Video</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn Through Practice Section -->
+    <section class="py-20 bg-skillsoft-light">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="bg-white rounded-lg p-8">
+                    <div class="w-full h-64 bg-gray-300 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-600 font-semibold">CAISY™ DEMO</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-skillsoft-navy mb-4">Learn Through Practice</h3>
+                    <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                        Provide learners with a safe space to practice critical business conversations and receive immediate, personalized feedback from an AI-powered coach.
+                    </p>
+                    <button class="border-2 border-skillsoft-navy text-skillsoft-navy px-8 py-3 rounded-lg font-semibold hover:bg-skillsoft-navy hover:text-white transition-all">
+                        MEET SKILLSOFT CAISY™
+                        <span class="ml-2 text-skillsoft-coral">▶</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold text-skillsoft-navy mb-8">
+                        Fuel Organizational and Employee Growth with Skillsoft
+                    </h2>
+                    <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                        Skillsoft empowers organizations to unlock the full potential of their workforce by providing personalized learning paths and leveraging real-time workforce insights to drive meaningful development. By integrating AI-powered learning experiences, hands-on practice, and multi-modal coaching into daily workflows, Skillsoft fosters continuous growth, ensuring teams are equipped with the skills they need to succeed.
+                    </p>
+                    <button class="border-2 border-skillsoft-navy text-skillsoft-navy px-8 py-3 rounded-lg font-semibold hover:bg-skillsoft-navy hover:text-white transition-all">
+                        EXPLORE OUR PLATFORM
+                        <span class="ml-2 text-skillsoft-coral">▶</span>
+                    </button>
+                </div>
+                <div class="bg-skillsoft-light rounded-lg p-8">
+                    <div class="w-full h-80 bg-gray-300 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-600 font-semibold">PLATFORM DEMO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transformation Section -->
+    <section class="py-20 bg-skillsoft-light">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-skillsoft-navy mb-4">
+                Accelerate Your Talent Transformation At Scale
+            </h2>
+            <p class="text-xl text-gray-700 mb-16 max-w-4xl mx-auto">
+                Drive Growth Across Your Workforce with Interactive, Measurable Learning Experiences that Empower Your Employees
+            </p>
+            
+            <div class="grid lg:grid-cols-4 gap-8 mb-16">
+                <div class="bg-white rounded-lg p-8 text-center">
+                    <div class="w-16 h-16 bg-skillsoft-coral rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-white font-bold">1</span>
+                    </div>
+                    <div class="w-full h-32 bg-gray-200 rounded mb-4"></div>
+                </div>
+                <div class="bg-white rounded-lg p-8 text-center">
+                    <div class="w-16 h-16 bg-skillsoft-coral rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-white font-bold">2</span>
+                    </div>
+                    <div class="w-full h-32 bg-gray-200 rounded mb-4"></div>
+                </div>
+                <div class="bg-white rounded-lg p-8 text-center">
+                    <div class="w-16 h-16 bg-skillsoft-coral rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-white font-bold">3</span>
+                    </div>
+                    <div class="w-full h-32 bg-gray-200 rounded mb-4"></div>
+                </div>
+                <div class="bg-white rounded-lg p-8 text-center">
+                    <div class="w-16 h-16 bg-skillsoft-coral rounded-full mx-auto mb-4 flex items-center justify-center">
+                        <span class="text-white font-bold">4</span>
+                    </div>
+                    <div class="w-full h-32 bg-gray-200 rounded mb-4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future-Ready Workforce Section -->
+    <section class="py-20 bg-skillsoft-navy text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-4">
+                Build a <span class="text-skillsoft-coral">Future-Ready</span> Workforce
+            </h2>
+            <p class="text-xl mb-16 max-w-3xl mx-auto text-gray-300">
+                Skillsoft empowers organizations and individuals to:
+            </p>
+            
+            <div class="grid lg:grid-cols-2 gap-8 mb-12">
+                <div class="bg-skillsoft-light text-skillsoft-navy rounded-lg p-8">
+                    <h3 class="text-2xl font-bold mb-4">DRIVE DIGITAL TRANSFORMATION</h3>
+                    <p class="text-lg leading-relaxed">
+                        Equip teams with the skills to adapt to new technologies and lead innovation.
+                    </p>
+                </div>
+                <div class="bg-skillsoft-light text-skillsoft-navy rounded-lg p-8">
+                    <h3 class="text-2xl font-bold mb-4">FUTURE-PROOF THE WORKFORCE</h3>
+                    <p class="text-lg leading-relaxed">
+                        Enabling ability and resilience in an era of constant change.
+                    </p>
+                </div>
+            </div>
+            
+            <button class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-skillsoft-navy transition-all">
+                REQUEST A DEMO
+                <span class="ml-2 text-skillsoft-coral">▶</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Integration Partners Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-skillsoft-navy mb-8">
+                Integrate Skillsoft With Your Learning and Talent Solutions
+            </h2>
+            <p class="text-xl text-gray-700 mb-16 max-w-4xl mx-auto">
+                Seamlessly Blend Our Transformative Learning Experiences With Your Daily Use Tools and Tech, Including LMS and HM Platforms
+            </p>
+            
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <div class="h-20 bg-gray-200 rounded flex items-center justify-center">
+                    <span class="text-gray-600 font-semibold">PARTNER</span>
+                </div>
+                <div class="h-20 bg-gray-200 rounded flex items-center justify-center">
+                    <span class="text-gray-600 font-semibold">INTEGRATION</span>
+                </div>
+                <div class="h-20 bg-gray-200 rounded flex items-center justify-center">
+                    <span class="text-gray-600 font-semibold">PLATFORM</span>
+                </div>
+                <div class="h-20 bg-gray-200 rounded flex items-center justify-center">
+                    <span class="text-gray-600 font-semibold">SOLUTION</span>
+                </div>
+            </div>
+            
+            <a href="#" class="text-skillsoft-coral font-semibold hover:underline text-lg">
+                Browse Our Partners
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-skillsoft-navy text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Newsroom</h3>
+                </div>
+                <div class="text-right">
+                    <a href="#" class="text-skillsoft-coral hover:underline mr-8">Read More Skillsoft News</a>
+                    <a href="#" class="text-skillsoft-coral hover:underline">Investors</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for interactivity -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Close alert bar
+        document.querySelector('.float-right').addEventListener('click', function() {
+            this.parentElement.style.display = 'none';
+        });
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.classList.add('shadow-lg');
+            } else {
+                header.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+</body>
+</html>
