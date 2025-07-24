@@ -1,0 +1,11 @@
+Estructura modular:
+Se crearon las carpetas js/, css/ e img/ dentro de skillsoft-clone/.
+El JavaScript de interactividad fue movido a js/main.js.
+Se añadió un archivo base css/main.css para estilos personalizados.
+El HTML ahora referencia estos archivos externos, facilitando la escalabilidad y la adición de más páginas .html en el futuro.
+Preparación para despliegue:
+Se creó un Dockerfile que utiliza Nginx para servir el sitio estático, ideal para Cloud Run.
+El README.md fue actualizado con la nueva estructura y pasos básicos para el despliegue.
+Listo para escalar:
+Puedes agregar más archivos .html y organizar imágenes y scripts fácilmente en las carpetas correspondientes.
+El proyecto está preparado para crecer y ser mantenido de forma profesional.
